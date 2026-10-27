@@ -1,11 +1,12 @@
 body{
-   background-color: rgb(255, 255, 255); 
+   background-color: rgb(252, 2, 2); 
    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-   margin: 0px;
+   margin: 10px;
+}
+.rTengah{
    display: flex;
    align-items: center;
    justify-content: center;
-   
 }
 h1{
     color: rgb(0, 183, 255)
@@ -44,4 +45,26 @@ h1{
 
 #deskripsi{
     color:brown
+}
+.info-detail{
+    display: none;
+    margin-top: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 15px 0;
+    background-color: #f9f9f9
+}
+.btn-close{
+    position: absolute;
+    top: 8px;
+    right: 10px;
+    background: none;
+    border: none;
+    font-size: 18px;
+    font-weight: bold;
+    cursor: pointer;
+    color:blue
+}
+.btn-close:hover{
+    color: aqua;
 }
